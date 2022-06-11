@@ -19,5 +19,3 @@ def init_conf_prop():
     configs = configparser.ConfigParser()
     configs.read(os.path.join(os.getcwd(), 'config.properties'))
     return configs
-
-
