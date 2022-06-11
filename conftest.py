@@ -17,7 +17,7 @@ def get_env(request):
 @pytest.fixture(scope='session')
 def init_conf_prop():
     configs = configparser.ConfigParser()
-    configs.read(os.getcwd() + '//config.properties')
+    configs.read(os.path.join(os.getcwd(), 'config.properties'))
     return configs
 
 
