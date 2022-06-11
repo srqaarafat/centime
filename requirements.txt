@@ -1,0 +1,7 @@
+requests
+pytest
+pytest-html
+pytest-xdist
+pytest-logging
+configparser
+jsonschema
